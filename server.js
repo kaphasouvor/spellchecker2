@@ -1,9 +1,6 @@
 // creating an express app/load express module.
 const express = require('express');
-
-// exports from data.js file
 const users = require('./data.js');
-
 const getemail = require("./getemail.js");
 
 // function call that creates an app object. Can name 'app' anything.
